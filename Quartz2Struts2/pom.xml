@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>Quartz2</groupId>
+        <artifactId>Quartz2</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+	<groupId>com.mkyong.common</groupId>
+	<artifactId>Quartz2Struts2</artifactId>
+	<packaging>war</packaging>
+	<version>com.mkyong.common</version>
+	<name>Quartz2Struts2</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+
+		<!-- Struts 2 -->
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.3.4</version>
+		</dependency>
+
+		<!-- Quartz framework -->
+		<dependency>
+			<groupId>org.quartz-scheduler</groupId>
+			<artifactId>quartz</artifactId>
+			<version>2.1.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>6.0.35</version>
+		</dependency>
+
+	</dependencies>
+	<build>
+		<finalName>Quartz2Struts2</finalName>
+    </build>
+</project>
